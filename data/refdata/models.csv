@@ -1,0 +1,120 @@
+model_key,lab,model_name,aliases
+openai_o3-mini,openai,o3-mini,o3-mini;o3mini
+openai_gpt-4.5,openai,GPT-4.5,gpt-4.5;gpt-4-5;gpt-4.5-preview
+openai_gpt-4.1,openai,GPT-4.1,gpt-4.1;gpt-4-1;gpt-4.1-mini;gpt-4.1-nano
+openai_o3,openai,o3,o3
+openai_o4-mini,openai,o4-mini,o4-mini;o4mini
+openai_o3-pro,openai,o3-pro,o3-pro;o3pro
+openai_gpt-5,openai,GPT-5,gpt-5;gpt5;gpt-5-mini;gpt-5-nano
+openai_gpt-5-pro,openai,GPT-5 Pro,gpt-5-pro;gpt5pro
+openai_gpt-5-codex,openai,gpt-5-codex,gpt-5-codex;gpt5codex
+openai_gpt-5.1,openai,GPT-5.1,gpt-5.1;gpt-5-1;gpt51
+openai_gpt-5.1-codex-max,openai,gpt-5.1-codex-max,gpt-5.1-codex-max;gpt-5-1-codex-max
+openai_gpt-5.2,openai,GPT-5.2,gpt-5.2;gpt-5-2;gpt52
+openai_gpt-5.2-codex,openai,gpt-5.2-codex,gpt-5.2-codex;gpt-5-2-codex
+openai_gpt-5.3-codex,openai,gpt-5.3-codex,gpt-5.3-codex;gpt-5-3-codex
+openai_gpt-5.4,openai,GPT-5.4,gpt-5.4;gpt-5-4;gpt54
+openai_gpt-5.4-mini,openai,GPT-5.4 mini,gpt-5.4-mini;gpt-5.4-nano
+openai_gpt-5.5,openai,GPT-5.5,gpt-5.5;gpt-5-5;gpt55;gpt-5.5-pro
+openai_gpt-5.6,openai,GPT-5.6 (Sol/Terra/Luna),gpt-5.6;gpt-5-6;gpt-5.6-sol;gpt-5.6-terra;gpt-5.6-luna;gpt5.6
+openai_gpt-5.6-cyber,openai,GPT-5.6 Cyber,gpt-5.6-cyber;gpt-5-6-cyber
+openai_gpt-6-astra,openai,GPT-6 Astra,gpt-6-astra;gpt6astra;gpt-6
+openai_gpt-6-sol,openai,GPT-6 Sol,gpt-6-sol;gpt6sol
+openai_gpt-6-luna,openai,GPT-6 Luna,gpt-6-luna;gpt6luna
+openai_gpt-6.1-sol,openai,GPT-6.1 Sol,gpt-6.1-sol;gpt-6-1-sol
+openai_gpt-6.1-terra,openai,GPT-6.1 Terra,gpt-6.1-terra;gpt-6-1-terra;gpt6.1terra
+openai_gpt-6-rosalind,openai,GPT-6 Rosalind,gpt-6-rosalind;gpt-rosalind-research
+openai_gpt-6-cyber,openai,GPT-6 Cyber,gpt-6-cyber;gpt6cyber
+anthropic_claude-sonnet-4,anthropic,Claude Sonnet 4,claude-sonnet-4;claude-sonnet-4-20250514;claude-sonnet-4-0
+anthropic_claude-opus-4,anthropic,Claude Opus 4,claude-opus-4;claude-opus-4-20250514;claude-opus-4-0
+anthropic_claude-opus-4-1,anthropic,Claude Opus 4.1,claude-opus-4-1;claude-opus-4-1-20250805;claude-opus-4.1
+anthropic_claude-sonnet-4-5,anthropic,Claude Sonnet 4.5,claude-sonnet-4-5;claude-sonnet-4-5-20250929;claude-sonnet-4.5
+anthropic_claude-haiku-4-5,anthropic,Claude Haiku 4.5,claude-haiku-4-5;claude-haiku-4-5-20251001;claude-haiku-4.5
+anthropic_claude-opus-4-5,anthropic,Claude Opus 4.5,claude-opus-4-5;claude-opus-4-5-20251101;claude-opus-4.5
+anthropic_claude-opus-4-6,anthropic,Claude Opus 4.6,claude-opus-4-6;claude-opus-4.6
+anthropic_claude-sonnet-4-6,anthropic,Claude Sonnet 4.6,claude-sonnet-4-6;claude-sonnet-4.6
+anthropic_claude-opus-4-7,anthropic,Claude Opus 4.7,claude-opus-4-7;claude-opus-4.7
+anthropic_claude-opus-4-8,anthropic,Claude Opus 4.8,claude-opus-4-8;claude-opus-4.8
+anthropic_claude-fable-5,anthropic,Claude Fable 5,claude-fable-5;claude-fable-5.0;claude-fable-5-0;claude-fable
+anthropic_claude-mythos-5,anthropic,Claude Mythos 5,claude-mythos-5;claude-mythos;claude-mythos-5.0
+anthropic_claude-mythos-preview,anthropic,Claude Mythos Preview,claude-mythos-preview;mythos-preview
+anthropic_claude-sonnet-5,anthropic,Claude Sonnet 5,claude-sonnet-5;claude-sonnet-5-0
+anthropic_claude-opus-5,anthropic,Claude Opus 5,claude-opus-5;claude-opus-5-0
+anthropic_claude-fable-5-1,anthropic,Claude Fable 5.1,claude-fable-5-1;claude-fable-5.1
+anthropic_claude-mythos-5-1,anthropic,Claude Mythos 5.1,claude-mythos-5-1;claude-mythos-5.1
+anthropic_claude-opus-5-5,anthropic,Claude Opus 5.5,claude-opus-5-5;claude-opus-5.5
+anthropic_claude-sonnet-5-5,anthropic,Claude Sonnet 5.5,claude-sonnet-5-5;claude-sonnet-5.5
+anthropic_claude-haiku-5-5,anthropic,Claude Haiku 5.5,claude-haiku-5-5;claude-haiku-5.5
+anthropic_claude-fable-5-2,anthropic,Claude Fable 5.2,claude-fable-5-2;claude-fable-5.2
+anthropic_claude-mythos-5-2,anthropic,Claude Mythos 5.2,claude-mythos-5-2;claude-mythos-5.2
+google_gemini-2.5-pro,google,Gemini 2.5 Pro,gemini-2.5-pro;gemini2.5pro;gemini-2.5-pro-exp-03-25
+google_gemini-2.5-flash,google,Gemini 2.5 Flash,gemini-2.5-flash;gemini2.5flash;gemini-2.5-flash-preview-04-17
+google_gemini-2.5-flash-lite,google,Gemini 2.5 Flash-Lite,gemini-2.5-flash-lite;gemini-2.5-flash-lite-preview-06-17
+google_gemini-3-pro,google,Gemini 3 Pro,gemini-3-pro;gemini-3;gemini3pro;gemini-3-pro-preview
+google_gemini-3-flash,google,Gemini 3 Flash,gemini-3-flash;gemini-3;gemini3flash;gemini-3-flash-preview
+google_gemini-3.1-pro,google,Gemini 3.1 Pro,gemini-3.1-pro;gemini-3-1-pro;gemini-3.1-pro-preview
+google_gemini-3.1-flash-lite,google,Gemini 3.1 Flash-Lite,gemini-3.1-flash-lite;gemini-3-1-flash-lite
+google_gemini-3.5-flash,google,Gemini 3.5 Flash,gemini-3.5-flash;gemini-3-5-flash
+google_gemini-3.6-flash,google,Gemini 3.6 Flash,gemini-3.6-flash;gemini-3-6-flash
+google_gemini-3.5-flash-lite,google,Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite;gemini-3-5-flash-lite
+google_gemini-3.7-flash,google,Gemini 3.7 Flash,gemini-3.7-flash;gemini-3-7-flash
+google_gemini-3.8-flash,google,Gemini 3.8 Flash,gemini-3.8-flash;gemini-3-8-flash
+google_gemini-4-argon,google,Gemini 4 Argon,gemini-4-argon;gemini-4.0-argon;gemini4argon;gemini-4
+google_gemini-4-carbon,google,Gemini 4 Carbon,gemini-4-carbon;gemini-4.0-carbon;gemini4carbon;gemini-4
+anthropic_claude-3.7-sonnet,anthropic,Claude 3.7 Sonnet,claude-3-7-sonnet;claude-3.7-sonnet;claude-3-7-sonnet-20250219
+xai_grok-4,xai,Grok 4,grok-4;grok4;grok-4-fast
+xai_grok-4.1,xai,Grok 4.1,grok-4.1;grok41;grok-4-1;grok-4.1-fast
+xai_grok-4.3,xai,Grok 4.3,grok-4.3;grok43
+xai_grok-4.5,xai,Grok 4.5,grok-4.5;grok45
+xai_grok-5.6,xai,Grok 5.6,grok-5.6;grok56;grok-5-6
+xai_grok-5,xai,Grok 5,grok-5;grok5
+meta_llama-4-scout,meta,Llama 4 Scout,llama-4-scout;llama4scout;llama-4;meta-llama/llama-4-scout-17b-16e-instruct
+meta_llama-4-maverick,meta,Llama 4 Maverick,llama-4-maverick;llama4maverick;llama-4;meta-llama/llama-4-maverick-17b-128e-instruct
+meta_muse-ember,meta,Muse Ember,muse-ember;museember;muse ember
+meta_muse,meta,Muse（系列）,muse
+alibaba_qwen3,alibaba,Qwen3,qwen3;qwen-3;qwen3-235b-a22b
+alibaba_qwen3-coder,alibaba,Qwen3-Coder,qwen3-coder;qwen3coder;qwen3-coder-480b-a35b-instruct
+alibaba_qwen3.8,alibaba,Qwen3.8（开源系列）,qwen3.8;qwen-3.8;qwen38
+alibaba_qwen3-max,alibaba,Qwen3-Max,qwen3-max;qwen3max;qwen-3-max;qwen3-max-preview
+alibaba_qwen3-max-thinking,alibaba,Qwen3-Max-Thinking,qwen3-max-thinking;qwen3maxthinking
+alibaba_qwen3.5,alibaba,Qwen3.5,qwen3.5;qwen-3.5;qwen35;qwen3.5-397b-a17b
+alibaba_qwen3.7-max,alibaba,Qwen3.7-Max,qwen3.7-max;qwen3.7max
+alibaba_qwen3.7-plus,alibaba,Qwen3.7-Plus,qwen3.7-plus;qwen3.7plus
+alibaba_qwen3.8-max,alibaba,Qwen3.8-Max,qwen3.8-max;qwen3.8max;qwen-3.8-max;qwen3.8-max-0902
+alibaba_qwen4,alibaba,Qwen4,qwen4;qwen-4;qwen4-max;qwen-4-max
+deepseek_r1,deepseek,DeepSeek-R1,deepseek-r1;deepseekr1;deepseek r1;deepseek-reasoner;deepseek-ai/deepseek-r1
+deepseek_v3-0324,deepseek,DeepSeek-V3-0324,deepseek-v3-0324;deepseek-v3;deepseek-chat;deepseek-ai/deepseek-v3-0324
+deepseek_r1-0528,deepseek,DeepSeek-R1-0528,deepseek-r1-0528;deepseek-r1;deepseek-reasoner;deepseek-ai/deepseek-r1-0528
+deepseek_v3.1,deepseek,DeepSeek-V3.1,deepseek-v3.1;deepseek-v3-1;deepseekv3.1;deepseek-chat;deepseek-reasoner
+deepseek_v3.1-terminus,deepseek,DeepSeek-V3.1-Terminus,deepseek-v3.1-terminus;v3.1-terminus;deepseek-chat;deepseek-reasoner
+deepseek_v3.2-exp,deepseek,DeepSeek-V3.2-Exp,deepseek-v3.2-exp;deepseek-v3.2;deepseek-chat;deepseek-reasoner
+deepseek_v3.2,deepseek,DeepSeek-V3.2,deepseek-v3.2;deepseekv3.2;deepseek-chat;deepseek-reasoner
+deepseek_v4-pro,deepseek,DeepSeek-V4 (Pro),deepseek-v4-pro;deepseek-v4;deepseekv4
+deepseek_v4-flash,deepseek,DeepSeek-V4-Flash,deepseek-v4-flash;deepseekv4flash
+deepseek_v4.1-flash,deepseek,DeepSeek-V4.1-Flash,deepseek-v4.1-flash;deepseek-flash;deepseekv4.1flash;deepseek-v4.1-flash-1017
+moonshot_kimi-k2,moonshot,Kimi K2,kimi-k2;kimik2;kimi-k2-0711;kimi-k2-0905;kimi-k2-0711-preview;moonshotai/kimi-k2
+moonshot_kimi-k2-thinking,moonshot,Kimi K2 Thinking,kimi-k2-thinking;kimik2thinking;kimi-k2-thinking-turbo
+moonshot_kimi-k2.5,moonshot,Kimi K2.5,kimi-k2.5;kimik2.5;kimi-k2-5;moonshotai/kimi-k2.5
+moonshot_kimi-k2.6,moonshot,Kimi K2.6,kimi-k2.6;kimik2.6
+moonshot_kimi-k2.7-code,moonshot,Kimi K2.7-Code,kimi-k2.7-code;kimik2.7;kimi-k2.7-code-highspeed
+moonshot_kimi-k3,moonshot,Kimi K3,kimi-k3;kimik3;kimi-k-3;moonshotai/kimi-k3
+moonshot_kimi-k3.1-pro,moonshot,Kimi K3.1 Pro,kimi-k3.1-pro;kimik3.1;kimi-k3-1;kimi-k3.1-pro-highspeed
+mistral_magistral,mistral,Magistral,magistral;magistral-medium;magistral-medium-latest
+mistral_magistral-small-2509,mistral,Magistral Small 2509,magistral-small-2509;magistral-small
+mistral_medium-3.5,mistral,Mistral Medium 3.5,mistral-medium-3.5;mistralmedium35;mistral-medium-3-5
+mistral_large-4,mistral,Mistral Large 4,mistral-large-4;mistrallarge4;mistral-large
+zhipu_glm-4.5,zhipu,GLM-4.5,glm-4.5;glm4.5;glm-4-5;zai-org/glm-4.5
+zhipu_glm-4.6,zhipu,GLM-4.6,glm-4.6;glm4.6;glm-4-6
+zhipu_glm-5,zhipu,GLM-5,glm-5;glm5;zai-org/glm-5
+zhipu_glm-5.1,zhipu,GLM-5.1,glm-5.1;glm5.1;glm-5-1
+zhipu_glm-5.2,zhipu,GLM-5.2,glm-5.2;glm5.2;glm-5-2
+zhipu_glm-5.3,zhipu,GLM-5.3,glm-5.3;glm5.3;glm-5-3;zai-org/glm-5.3
+zhipu_glm-5.3-flash,zhipu,GLM-5.3-Flash,glm-5.3-flash;glm5.3flash;zai-org/glm-5.3-flash
+zhipu_glm-5.5,zhipu,GLM-5.5,glm-5.5;glm5.5
+minimax_m1,minimax,MiniMax-M1,minimax-m1;minimaxm1;minimax m1;minimax-ai/minimax-m1
+minimax_m2,minimax,MiniMax-M2,minimax-m2;minimaxm2;minimax m2;minimax-ai/minimax-m2
+minimax_m2.1,minimax,MiniMax-M2.1,minimax-m2.1;minimaxm21;minimax-ai/minimax-m2.1
+minimax_m2.5,minimax,MiniMax-M2.5,minimax-m2.5;minimaxm25
+minimax_m2.7,minimax,MiniMax-M2.7,minimax-m2.7;minimaxm27
+minimax_m3,minimax,MiniMax-M3,minimax-m3;minimaxm3
+minimax_h3,minimax,MiniMax-H3,minimax-h3;minimaxh3

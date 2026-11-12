@@ -1,0 +1,24 @@
+# secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*credential*
+
+# private user context (positions, balances, personal notes)
+knowledge/private/*
+!knowledge/private/README.md
+
+# runtime output and model notes
+var/*
+!var/.gitkeep
+!var/notes/
+var/notes/*
+!var/notes/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
