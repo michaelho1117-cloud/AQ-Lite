@@ -4,6 +4,8 @@
 
 AQ-Lite 把 AtomQuant 研究项目里验证过的**策略、规则卡和数据资产**拆出来，配上一个只用 Python 标准库的只读工具 `aq.py`，再加一份写给 LLM 的主脑说明 `AGENTS.md`。把它交给 Claude Code、Codex、Cursor、Gemini CLI / Antigravity 等 harness，模型就能按同一套 SOP 扫描 AI 发布盘和地缘盘、读规则、定锚、算仓位，并给出带出处的盘口卡。
 
+> 个人自用项目，按开源标准整理发布。作者 Polymarket 主页：[@umibenokafu](https://polymarket.com/zh/profile/0x019Bb1Fa70A5663C10802aAF2880f9f305190383)
+
 > ⚠️ **只读，不下单，不含任何密钥。** 本仓库没有私钥、API key、钱包签名或下单代码，只访问 Polymarket 的公开只读接口。所有输出都只是研究笔记，**不构成投资建议**。
 
 ---
@@ -26,7 +28,7 @@ Windows 用 `python -X utf8 aq.py ...`（或先 `chcp 65001`），否则中文�
 
 ### 交给 agent 使用
 1. 用 harness 打开克隆下来的 `AQ-Lite` 文件夹作为工作区。
-2. （可选）在 `knowledge/private/` 里放你自己的持仓和资金情况，模板见该目录的 README。这个目录不会进 git。
+2. （可选）在 `knowledge/private/` 里放你自己的持仓和资金情况，模板见该目录的 README。这个目录不会进 git。没有私有文件时，agent 会先用 `python3 aq.py positions 0x019Bb1Fa70A5663C10802aAF2880f9f305190383` 查作者的实时公开持仓（换成你自己的地址即可）。
 3. 第一句话发：
 
    > 先完整读 AGENTS.md，再按里面的要求读 knowledge 目录下的文件。读完后用三句话告诉我你理解的边界和两个工作流，然后等我指令。

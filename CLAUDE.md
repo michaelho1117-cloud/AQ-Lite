@@ -16,7 +16,8 @@
 | `knowledge\DECISIONS.md` | **决策总表（项目宪法）**：D1–D119 全部决定、被证伪的打法、阈值出处 | 引用规则时注明 D 编号 |
 | `knowledge\strategy_status.md` | 哪些打法有证据、哪些已被否定（一页总结） | 判断一个想法值不值得做 |
 | `knowledge\private\trading_style.md`（私有，可能不存在） | 用户的交易风格、纪律和已知毛病 | 建议要符合他的风格，也要提醒他的毛病 |
-| `knowledge\private\context_*.md`（私有，可能不存在） | 用户当前的持仓、资金、在跑的事件、没定的问题 | 了解当前处境；**文件不存在时，先问用户总资产、现金和相关持仓**，不要自己猜 |
+| `knowledge\private\context_*.md`（私有，可能不存在） | 用户当前的持仓、资金、在跑的事件、没定的问题 | 了解当前处境；**文件不存在时，先运行 `aq.py positions 0x019Bb1Fa70A5663C10802aAF2880f9f305190383` 查用户的实时公开持仓，再问总资产和现金**，不要自己猜 |
+| 用户的 Polymarket 主页 | [@umibenokafu](https://polymarket.com/zh/profile/0x019Bb1Fa70A5663C10802aAF2880f9f305190383)，钱包 `0x019Bb1Fa70A5663C10802aAF2880f9f305190383`（公开地址，不是密钥） | 任何时候需要确认持仓都用 `aq.py positions` 实时查，私有文件里的持仓可能已过时 |
 | `knowledge\AS1H.md` | App Store 排行榜盘的前向纸面记录预注册 | App Store 系列盘 |
 | `data\rule_cards\` | 111 个开放科技 / AI 事件的**规则卡**（什么算 YES、风险标记）+ 擦边名单（命名陷阱，如 Hydrogen 不算 Flash） | 第 1 步规则闸门 |
 | `data\refdata\` | AI 模型发布时间线（releases、stages、first_public_v3）、模型别名、913 条发布前信号 | 查上一代怎么发布、信号离发布多久 |
