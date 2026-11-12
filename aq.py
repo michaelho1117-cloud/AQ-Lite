@@ -5,7 +5,7 @@
   python aq.py book <slug> <bucket text>   CLOB depth for one bucket (YES side; NO = 1 - YES)
   python aq.py size --anchor A --mid M --price P --side YES|NO --cat tech|geo --assets X --cash C [options]
   python aq.py rules <keyword>             search the rule-card library (data/rule_cards)
-  python aq.py positions <wallet>          public positions of a wallet (data-api)
+  python aq.py positions <wallet>          public positions of a wallet (data-api v2)
 """
 import argparse, csv, datetime as dt, gzip, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 
@@ -237,9 +237,21 @@ def cmd_rules(a):
 
 
 def cmd_positions(a):
-    rows = get(f"{DATA}/positions?" + urllib.parse.urlencode({"user": a.wallet, "sizeThreshold": 0.1, "limit": 200})) or []
-    for p in sorted(rows, key=lambda p: -(f(p.get("currentValue")) or 0)):
-        print(f"  {(p.get('title') or '')[:60]:<60} {p.get('outcome'):<4} size={f(p.get('size')) or 0:.1f} avg={p.get('avgPrice')} cur={p.get('curPrice')} value=${f(p.get('currentValue')) or 0:.2f} pnl=${f(p.get('cashPnl')) or 0:.2f} end={p.get('endDate')}")
+    """Public positions of a wallet via data-api v2 (v1 /positions returns 410 since 2026-11)."""
+    q = urllib.parse.urlencode({"user": a.wallet})
+    rows, cur = [], None
+    for _ in range(20):  # v2 paginates with next_cursor; an offset parameter returns 400
+        page = get(f"{DATA}/v2/positions?{q}&limit=100" + (f"&cursor={urllib.parse.quote(str(cur))}" if cur else "")) or {}
+        rows += page.get("data") or []
+        cur = (page.get("pagination") or {}).get("next_cursor")
+        if not (page.get("pagination") or {}).get("has_more") or not cur:
+            break
+    val = ((get(f"{DATA}/v2/value?{q}") or {}).get("data") or {}).get("value")
+    print(f"wallet {a.wallet}  open positions {len(rows)}  positions value ${f(val) or 0:.2f} (cash balance is not public)")
+    for p in sorted(rows, key=lambda p: -(f(p.get("current_value")) or 0)):
+        print(f"  {(p.get('title') or '')[:60]:<60} {p.get('outcome'):<4} size={f(p.get('current_size')) or 0:.1f} avg={p.get('avg_price')} "
+              f"cur={p.get('current_price')} value=${f(p.get('current_value')) or 0:.2f} upnl=${f(p.get('unrealized_pnl')) or 0:.2f} "
+              f"rpnl=${f(p.get('realized_pnl')) or 0:.2f} end={p.get('end_date')} status={p.get('status')} [{p.get('event_slug')}]")
 
 
 def main():
